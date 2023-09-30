@@ -25,4 +25,5 @@ urlpatterns = [
     path('micon', views.speech_to_text, name='micon'),
     path('ajax/clicked/', views.index, name='clickedornot'),
     path('about', views.aboutpage, name='about'),
+    
 ]
